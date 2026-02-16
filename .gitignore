@@ -1,0 +1,10 @@
+.venv/
+Stanford3dDataset_v1.2/
+core.*
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+test_reference.ply
+test_target.ply

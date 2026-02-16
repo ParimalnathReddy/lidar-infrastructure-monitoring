@@ -1,0 +1,17 @@
+# LiDAR Infrastructure Inspector - Requirements
+# Phase 3: Real-Time DBSCAN Clustering
+
+# Core dependencies
+numpy>=1.21.0
+open3d>=0.17.0
+PyQt5>=5.15.0
+laspy[lazrs]>=2.0.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+reportlab>=3.6.0
+
+# Optional: LAS/LAZ support
+laspy[lazrs]>=2.0.0
+
+# Development tools (optional)
+pytest>=7.0.0
