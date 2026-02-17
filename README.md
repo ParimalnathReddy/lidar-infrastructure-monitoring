@@ -45,8 +45,8 @@ A production-grade desktop application for civil engineers to analyze LiDAR poin
 *Automated DBSCAN clustering isolating defect regions with volume estimates.*
 
 ### PDF Report Output
-![Report](screenshots/03_ground_removal.png)
-*Automated ground removal for focused terrain analysis.*
+![Report](screenshots/06_report_screenshot.png)
+*Auto-generated inspection report with statistics, histograms, and annotated screenshots.*
 
 ## Technical Highlights
 
