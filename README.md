@@ -73,12 +73,27 @@ This generates `test_reference.ply` and `test_target.ply` which you can load int
 
 ## Results & Screenshots
 
-You can check the `screenshots/` directory for a full visual walkthrough of the analysis results, including:
-- Dual viewport data loading.
-- ICP alignment convergence plots.
-- Ground removed terrain visualization.
-- Signed distance change maps (blue-to-red).
-- Cluster identification and inspection.
+Below is a visual walkthrough of the analysis pipeline. You can find all demonstration images in the `screenshots/` directory.
+
+### 1. Dual Viewport Visualization
+Load your reference and target point clouds side-by-side for initial inspection.
+![Dual Viewport](screenshots/01_dual_viewport.png)
+
+### 2. ICP Alignment
+Align the two scans accurately to ensure consistent change detection.
+![ICP Alignment](screenshots/02_icp_alignment.png)
+
+### 3. Ground Removal
+Filter out the terrain to focus on structural changes or defects.
+![Ground Removal](screenshots/03_ground_removal.png)
+
+### 4. Change Detection
+Visualize surface changes with a blue-to-red signed distance map.
+![Change Detection](screenshots/04_change_detection.png)
+
+### 5. Clustering Results
+Automatically group detected changes into quantifiable clusters.
+![Clustering Results](screenshots/05_clustering_results.png)
 
 ## Project Layout
 
